@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.DeleteProduct">
+
+    <include layout="@layout/tool_bar"
+        android:id="@+id/delete_toolbar"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/delete_name_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Name of Product "/>
+
+        <Button
+            android:onClick="Delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Delete Product "/>
+
+        <Button
+            android:onClick="checker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLICK ME"/>
+
+    </LinearLayout>
+
+</LinearLayout>

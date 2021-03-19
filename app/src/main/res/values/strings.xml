@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">M-POS</string>
+    <!-- Strings related to login -->
+    <string name="prompt_username">UserName</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="action_sign_up">Sign Up</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!-- Strings related to labels -->
+    <string name="products_label">Products</string>
+    <string name="login_label">Login</string>
+    <string name="buy_label"> Buy Items </string>
+    <string name="sign_up_label"> Sign Up </string>
+
+    <!-- Strings related to InsertActivity -->
+    <string name="product_price"> Price </string>
+    <string name="product_category"> Category </string>
+    <string name="Submit"> Submit </string>
+    <string name="product_name"> Name </string>
+
+    <!-- -->
+    <string name="open">Open</string>
+    <string name="Close" translatable="false">Close</string>
+
+    <!-- temporary data-->
+    <string name="home_text">Since we opened our doors in 2017, Bits and Pizzas
+              has built its reputation as one of America’s best Italian-Digital
+              restaurants. Some people believe eating out is about being with your
+              friends and family. We believe that good food is best enjoyed while
+              staring at your phone.</string>
+    <string name="company_name"> Mobile Point of Sale </string>
+
+    <!-- menu items Strings -->
+    <string name="buy_items_menu"> Buy Items </string>
+    <string name="stats_item_menu"> Statistics </string>
+    <string name="insert_item_menu"> Insert Product </string>
+    <string name="update_item_menu"> Update Product </string>
+    <string name="delete_item_menu"> Delete Product </string>
+    <string name="log_out_item_menu"> Log Out </string>
+    <string name="help_item_menu"> Help </string>
+    <string name="feedback_item_menu"> Feedback </string>
+    <string name="title_activity_update_category">UpdateCategory</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

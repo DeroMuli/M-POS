@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview_buying"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="4dp"
+    android:layout_height="150dp"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/itempic"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/itemname"
+            android:layout_width="91dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            />
+
+        <ImageButton
+            android:id="@+id/additionbutton"
+            android:scaleType="centerCrop"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/btn_plus"
+            />
+
+        <TextView
+            android:id="@+id/itemcounter"
+            android:layout_width="55dp"
+            android:layout_height="149dp"
+            android:gravity="center"
+            android:text="1"
+            />
+
+        <ImageButton
+            android:id="@+id/minusbutton"
+            android:scaleType="centerCrop"
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

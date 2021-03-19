@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.InsertActivity">
+
+    <include layout="@layout/tool_bar"
+        android:id="@+id/insert_toolbar"/>
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:id="@+id/setproductimage"
+        android:scaleType="centerCrop"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+       <EditText
+           android:hint="@string/product_name"
+           android:id="@+id/nameofproduct"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+
+    <EditText
+        android:hint="@string/product_price"
+        android:id="@+id/priceofproduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Spinner
+        android:hint="@string/product_category"
+        android:id="@+id/categoryofproductspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="AddProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Submit"/>
+
+       <EditText
+           android:id="@+id/category_name"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Category name"/>
+       <Button
+           android:onClick="AddCategory"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Add Category"/>
+   </LinearLayout>
+
+</LinearLayout>

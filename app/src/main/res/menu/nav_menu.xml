@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/buy_items_menu_item"
+            android:title="@string/buy_items_menu"
+            />
+        <item android:id="@+id/stats_menu_item"
+            android:title="@string/stats_item_menu" />
+        <item android:id="@+id/insert_product"
+            android:title="@string/insert_item_menu"/>
+        <item android:id="@+id/update_product"
+            android:title="@string/update_item_menu"/>
+        <item android:id="@+id/delete_product"
+            android:title="@string/delete_item_menu"/>
+        <item android:id="@+id/log_out_menu_item"
+            android:title="@string/log_out_item_menu" />
+    </group>
+    <item android:title="support">
+        <menu>
+            <item android:title="@string/help_item_menu"
+                android:id="@+id/nav_help"
+                android:icon="@android:drawable/ic_menu_help"/>
+
+            <item android:title="@string/feedback_item_menu"
+                android:icon="@android:drawable/sym_action_email"
+                android:id="@+id/nav_feedback"/>
+        </menu>
+    </item>
+</menu>
